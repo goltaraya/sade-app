@@ -22,7 +22,7 @@
 
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                 <div class="navbar-nav">
-                    <a class="nav-link" href="#">Início</a>
+                    <a class="nav-link" href="<?= $BASE_URL ?>index.php">Início</a>
                     <a class="nav-link" href="#">Eventos</a>
                     <a class="nav-link" href="#">Colaboradores</a>
                 </div>
