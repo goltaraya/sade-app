@@ -9,9 +9,11 @@
 
     <!-- BOOTSTRAP -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
-
     <!-- CSS -->
     <link rel="stylesheet" href="<?= $BASE_URL ?>css/style.css">
+    <!-- FAVICON -->
+    <link rel="shortcut icon" href="<?= $BASE_URL ?>img/clipboard-icon.png" type="image/x-icon">
+
 </head>
 
 <body>
@@ -23,8 +25,10 @@
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                 <div class="navbar-nav">
                     <a class="nav-link" href="<?= $BASE_URL ?>index.php">Início</a>
+                    <a class="nav-link" href="<?= $BASE_URL ?>sobre.php">Sobre</a>
                     <a class="nav-link" href="<?= $BASE_URL ?>eventos.php">Eventos</a>
                     <a class="nav-link" href="<?= $BASE_URL ?>colaboradores.php">Colaboradores</a>
                 </div>
             </div>
         </div>
+    </nav>
