@@ -1,2 +1,2 @@
-# sade-app
-Sistema de Avisos de Eventos, feito em PHP.
+# SADE (Sistema de Avisos de Eventos)
+Aplicação Web feita com PHP e MariaDB.
