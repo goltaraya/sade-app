@@ -21,3 +21,9 @@ body {
   padding: 10px;
   width: 90%;
 }
+
+.line-divisor {
+  margin: auto;
+  padding: 10px;
+  width: 50%;
+}
