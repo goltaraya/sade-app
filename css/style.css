@@ -4,11 +4,25 @@ body {
 
 /* Navbar */
 .navbar {
-  background-color: #f8f9fa;
+  background-color: #343a40;
 }
 
 .nav-link {
-  color: #050e1b;
+  color: #fff;
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-transition-duration: 0.1s;
+  transition-duration: 0.2s;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+}
+.nav-link:hover, .nav-link:focus, .nav-link:active {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+  color: #fff;
 }
 
 .navbar-brand img {
