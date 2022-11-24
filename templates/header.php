@@ -1,4 +1,7 @@
-<?php include_once 'config/url.php' ?>
+<?php
+include_once 'config/url.php';
+include_once 'config/connection.php';
+?>
 
 <!DOCTYPE html>
 <html lang="pt-BR">

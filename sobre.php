@@ -5,7 +5,7 @@
         <h1>O que é o SADE?</h1>
         <p>O Sistema de Aviso de Eventos - ou SADE - é um sistema que gerencia os avisos de
             eventos que acontecerão na Escola Superior de Controle Externo - ESCEX.<br>
-            Ele tem como propósito informar os colaboradores da ESCEX acerca dos eventos que ocorrerão em seus aposentos
+            Ele tem como propósito informar os colaboradores do Suporte da ESCEX acerca dos eventos que ocorrerão em seus aposentos
             através do e-mail institucional.
         </p>
     </div>
