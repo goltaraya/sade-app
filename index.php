@@ -8,9 +8,8 @@
     </div>
 
     <div class="d-grid gap-2 col-4 mx-auto">
-        <button type="button" class="btn btn-secondary btn-lg">Evento</button>
-        <button type="button" class="btn btn-secondary btn-lg">Colaborador</button>
-        <button type="button" class="btn btn-secondary btn-lg">Memorando</button>
+        <a href="<?= $BASE_URL ?>eventos.php" type="button" class="btn btn-secondary btn-lg">Evento</a>
+        <a type="button" class="btn btn-secondary btn-lg">Colaborador</a>
     </div>
 </main>
 
