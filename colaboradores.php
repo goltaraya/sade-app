@@ -28,8 +28,12 @@
             </tbody>
         </table>
     <?php else : ?>
-        <p>Oops... Aparentemente ainda não há colaboradores cadastrados. Por favor, cadastre-os no botão abaixo.</p>
+        <p class="p-div">Oops... Aparentemente ainda não há colaboradores cadastrados. Por favor, cadastre-os no botão abaixo.</p>
+
     <?php endif; ?>
+    <div class="d-grid gap-2 col-8 mx-auto">
+        <a href="<?= $BASE_URL ?>create-colaborador.php" type="button " class="btn">Cadastrar colaborador</a>
+    </div>
 </div>
 
 <?php include_once 'templates/footer.php' ?>
