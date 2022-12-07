@@ -1,14 +1,14 @@
 body {
-  background-color: #fff;
+  background-color: #f8f9fa;
 }
 
 /* Navbar */
 .navbar {
-  background-color: #343a40;
+  background-color: #990009;
 }
 
 .nav-link {
-  color: #fff;
+  color: #f8f9fa;
   display: inline-block;
   vertical-align: middle;
   -webkit-transform: perspective(1px) translateZ(0);
@@ -24,11 +24,7 @@ body {
 .nav-link:active {
   -webkit-transform: scale(1.1);
   transform: scale(1.1);
-  color: #fff;
-}
-
-.navbar-brand img {
-  height: 40px;
+  color: #f8f9fa;
 }
 
 .header-div {
@@ -41,7 +37,7 @@ body {
 /* Página principal */
 
 /* Colaboradores */
-#colaboradores-table {
-  max-width: 800px;
+#users-table {
+  max-width: 100%;
   margin: 0 auto;
 }

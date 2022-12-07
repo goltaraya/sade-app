@@ -1,8 +1,8 @@
 <?php include_once 'templates/header.php' ?>
 
-<?php if (count($colaboradores) > 0) : ?>
-    <div class="form-div">
-        <table class="table table-hover table-sm" id="colaboradores-table">
+<div class="container">
+    <?php if (count($colaboradores) > 0) : ?>
+        <table class="table table-hover" id="users-table">
             <thead>
                 <tr>
                     <th scope="col">#</th>
@@ -21,14 +21,14 @@
                         <td scope="row"><?= $colaborador["cargo"] ?></td>
                         <td scope="row"><?= $colaborador["telefone"] ?></td>
                         <td scope="row"><?= $colaborador["email"] ?></td>
-                        <td scope="row">EDIT</td>
+                        <td scope="row">EDIT VIEW DELETE</td>
                     </tr>
                 <?php endforeach; ?>
             </tbody>
         </table>
-    </div>
-<?php else : ?>
-    <p>Oops... Aparentemente ainda não há colaboradores cadastrados. Por favor, cadastre-os no botão abaixo.</p>
-<?php endif; ?>
+    <?php else : ?>
+        <p>Oops... Aparentemente ainda não há colaboradores cadastrados. Por favor, cadastre-os no botão abaixo.</p>
+    <?php endif; ?>
+</div>
 
 <?php include_once 'templates/footer.php' ?>
