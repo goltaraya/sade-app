@@ -1,6 +1,7 @@
 <?php include_once 'templates/header.php' ?>
 
 <div class="container">
+    <h2 class="table-header">Colaboradores</h2>
     <?php if (count($colaboradores) > 0) : ?>
         <table class="table table-hover" id="users-table">
             <thead>

@@ -3,13 +3,13 @@
 <main>
     <div class="d-grid gap-2 col-6 mx-auto">
         <div class="header-div">
-            <h3 style="text-align: center;">Selecione abaixo o que deseja visualizar: </h3>
+            <h2 style="text-align: center;">Selecione abaixo o que deseja visualizar: </h2>
         </div>
     </div>
 
     <div class="d-grid gap-2 col-4 mx-auto">
-        <a href="<?= $BASE_URL ?>eventos.php" type="button" class="btn btn-secondary btn-lg">Evento</a>
-        <a href="<?= $BASE_URL ?>colaboradores.php" type="button" class="btn btn-secondary btn-lg">Colaborador</a>
+        <a href="<?= $BASE_URL ?>eventos.php" type="button " class="btn">Eventos</a>
+        <a href="<?= $BASE_URL ?>colaboradores.php" type="button" class="btn">Colaboradores</a>
     </div>
 </main>
 
