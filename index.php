@@ -9,7 +9,7 @@
 
     <div class="d-grid gap-2 col-4 mx-auto">
         <a href="<?= $BASE_URL ?>eventos.php" type="button" class="btn btn-secondary btn-lg">Evento</a>
-        <a type="button" class="btn btn-secondary btn-lg">Colaborador</a>
+        <a href="<?= $BASE_URL ?>colaboradores.php" type="button" class="btn btn-secondary btn-lg">Colaborador</a>
     </div>
 </main>
 

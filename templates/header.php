@@ -30,7 +30,6 @@ include_once 'config/connection.php';
                     <a class="nav-link" href="<?= $BASE_URL ?>index.php">Início</a>
                     <a class="nav-link" href="<?= $BASE_URL ?>eventos.php">Eventos</a>
                     <a class="nav-link" href="<?= $BASE_URL ?>colaboradores.php">Colaboradores</a>
-                    <a class="nav-link" href="<?= $BASE_URL ?>memorandos.php">Memorandos</a>
                     <a class="nav-link" href="<?= $BASE_URL ?>sobre.php">Sobre</a>
                 </div>
             </div>
