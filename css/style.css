@@ -19,7 +19,9 @@ body {
   -webkit-transition-property: transform;
   transition-property: transform;
 }
-.nav-link:hover, .nav-link:focus, .nav-link:active {
+.nav-link:hover,
+.nav-link:focus,
+.nav-link:active {
   -webkit-transform: scale(1.1);
   transform: scale(1.1);
   color: #fff;
@@ -36,11 +38,10 @@ body {
   width: 90%;
 }
 
-.line-divisor {
-  margin: auto;
-  padding: 10px;
-  width: 50%;
-}
-
-
 /* Página principal */
+
+/* Colaboradores */
+#colaboradores-table {
+  max-width: 800px;
+  margin: 0 auto;
+}
