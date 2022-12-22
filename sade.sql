@@ -7,6 +7,8 @@
 -- Versão do servidor: 10.6.11-MariaDB-0ubuntu0.22.04.1
 -- versão do PHP: 8.1.12
 
+CREATE DATABASE sade;
+USE sade;
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 START TRANSACTION;
 SET time_zone = "+00:00";
