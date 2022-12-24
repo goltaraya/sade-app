@@ -4,6 +4,8 @@
 
     <h2 class="table-header">Editando perfil de <?= $colaborador["nome"] ?></h2>
     <form action="<?= $BASE_URL ?>config/process.php" method="POST">
+        <input type="hidden" name="type" value="edit">
+        <input type="hidden" name="id" value="<?= $colaborador['id'] ?>">
         <h3>Nome:</h3>
         <input type="text" value="<?= $colaborador['nome'] ?>" name="nome" id="nome">
         <h3>CPF:</h3>

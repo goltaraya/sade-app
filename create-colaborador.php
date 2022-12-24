@@ -3,6 +3,7 @@
 <div class="container">
     <h2 style="text-align: center;">Cadastro de colaborador</h2>
     <form action="<?= $BASE_URL ?>config/process.php" method="POST">
+        <input type="hidden" name="type" value="create">
         <div class="form-group">
             <p class="p-div">Nome</p>
             <input class="input-group mb-3" type="text" class="form-control" name="nome" id="nomeColaborador">
