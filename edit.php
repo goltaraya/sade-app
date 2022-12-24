@@ -14,8 +14,6 @@
         <input type="text" value="<?= $colaborador['email'] ?>" name="email" id="email">
         <h3>Telefone:</h3>
         <input type="text" value="<?= $colaborador['telefone'] ?>" name="telefone" id="telefone">
-        <h3>Usuário administrador:</h3>
-        <input type="text" value="<?= $colaborador['admin'] ?>" name="admin" id="admin">
         <br>
         <input class="btn btn-atualizar" style="margin: 10px 20px;" type="submit" name="edit" value="Atualizar">
     </form>
