@@ -25,7 +25,7 @@
                         <td scope="actions">
                             <a href="<?= $BASE_URL ?>view.php?id=<?= $colaborador['id'] ?>"><i class="fa-solid fa-magnifying-glass icon"></i></a>
                             <a href="<?= $BASE_URL ?>edit.php?id=<?= $colaborador['id'] ?>"><i class="fa-solid fa-pen icon"></i></a>
-                            <form action="<?= $BASE_URL ?>config/process.php" method="POST" style="display: inline-block;">
+                            <form class="delete-form" action="<?= $BASE_URL ?>config/process.php" method="POST" style="display: inline-block;">
                                 <input type="hidden" name="type" value="delete">
                                 <input type="hidden" name="id" value="<?= $colaborador['id'] ?>">
                                 <button><i class="fa-solid fa-trash icon"></i></button>
