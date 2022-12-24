@@ -22,7 +22,10 @@
                         <td scope="row"><?= $colaborador["cargo"] ?></td>
                         <td scope="row"><?= $colaborador["telefone"] ?></td>
                         <td scope="row"><?= $colaborador["email"] ?></td>
-                        <td scope="row">EDIT VIEW DELETE</td>
+                        <td scope="actions">
+                            <a href="<?= $BASE_URL ?>view.php?id=<?= $colaborador['id'] ?>"><i class="fa-solid fa-magnifying-glass icon"></i></a>
+                            <a href="<?= $BASE_URL ?>edit.php?id=<?= $colaborador['id'] ?>"><i class="fa-solid fa-pen icon"></i></a>
+                        </td>
                     </tr>
                 <?php endforeach; ?>
             </tbody>
