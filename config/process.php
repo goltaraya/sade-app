@@ -63,6 +63,15 @@ if (!empty($data)) {
     }
     if ($data["type"] === "delete") {
         $id = $data["id"];
+        $query = "DELETE FROM users WHERE id=:id";
+        $stmt = $conn->prepare($query);
+        $stmt->bindParam(":id", $id);
+
+        try {
+            $stmt->execute();
+        } catch (PDOException $e) {
+            echo "Error: " . $e->getMessage();
+        }
     }
 
     header("Location:" . $BASE_URL . "../colaboradores.php");
