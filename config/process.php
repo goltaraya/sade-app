@@ -2,19 +2,19 @@
 
 session_start();
 
-include_once 'connection.php';
-include_once 'url.php';
+include_once("connection.php");
+include_once("url.php");
 
 $data = $_POST;
 
 if (!empty($data)) {
     if ($data["type"] === "edit") {
-        $id = $data['id'];
-        $nome = $data['nome'];
-        $cpf = $data['cpf'];
-        $cargo = $data['cargo'];
-        $email = $data['email'];
-        $telefone = $data['telefone'];
+        $id = $data["id"];
+        $nome = $data["nome"];
+        $cpf = $data["cpf"];
+        $cargo = $data["cargo"];
+        $email = $data["email"];
+        $telefone = $data["telefone"];
 
 
         $query = "UPDATE users 
@@ -35,13 +35,13 @@ if (!empty($data)) {
         }
     }
     if ($data["type"] === "create") {
-        $nome = $data['nome'];
-        $cpf = $data['cpf'];
-        $senha = $data['senha'];
-        $cargo = $data['cargo'];
-        $email = $data['email'];
-        $telefone = $data['telefone'];
-        $admin = $data['admin'];
+        $nome = $data["nome"];
+        $cpf = $data["cpf"];
+        $senha = $data["senha"];
+        $cargo = $data["cargo"];
+        $email = $data["email"];
+        $telefone = $data["telefone"];
+        $admin = $data["admin"];
 
         $query = "INSERT INTO users (nome, cpf, senha, cargo, email, telefone, admin) 
             VALUES (:nome, :cpf, :senha, :cargo, :email, :telefone, :admin)";
@@ -59,6 +59,18 @@ if (!empty($data)) {
             $stmt->execute();
         } catch (PDOException $e) {
             echo "Error:" . $e->getMessage();
+        }
+    }
+    if ($data["type"] === "delete") {
+        $id = $data["id"];
+        $query = "DELETE FROM users WHERE id=:id";
+        $stmt = $conn->prepare($query);
+        $stmt->bindParam(":id", $id);
+
+        try {
+            $stmt->execute();
+        } catch (PDOException $e) {
+            echo "Error: " . $e->getMessage();
         }
     }
 
