@@ -92,5 +92,16 @@ body {
 }
 
 .icon {
-  color: #730007;
+  color: #990009;
+}
+
+.cadastrar-colaborador-button {
+  width: 300px;
+  height: auto;
+  margin-top: 15px;
+}
+
+.btn-atualizar{
+  font-size: 18px;
+  width: 100px;
 }
