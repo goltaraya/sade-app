@@ -80,3 +80,17 @@ body {
   padding: 20px;
   text-align: center;
 }
+
+.actions {
+  text-align: right;
+  width: 150px;
+}
+
+.actions i {
+  font-size: 12px;
+  margin-right: 5px;
+}
+
+.icon {
+  color: #730007;
+}
