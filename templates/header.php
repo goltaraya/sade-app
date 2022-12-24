@@ -35,7 +35,6 @@ include_once 'config/process.php';
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                 <div class="navbar-nav">
                     <a class="nav-link" href="<?= $BASE_URL ?>index.php">Home</a>
-                    <a class="nav-link" href="<?= $BASE_URL ?>eventos.php">Eventos</a>
                     <a class="nav-link" href="<?= $BASE_URL ?>colaboradores.php">Colaboradores</a>
                     <a class="nav-link" href="<?= $BASE_URL ?>sobre.php">Sobre</a>
                 </div>
