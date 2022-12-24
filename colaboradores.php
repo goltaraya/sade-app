@@ -40,7 +40,7 @@
 
     <?php endif; ?>
     <div>
-        <a href="<?= $BASE_URL ?>create-colaborador.php" type="button" class="btn cadastrar-colaborador-button">Cadastrar colaborador</a>
+        <a href="<?= $BASE_URL ?>create-colaborador.php" type="button" class="btn cadastrar-colaborador-button">Cadastrar</a>
     </div>
 </div>
 

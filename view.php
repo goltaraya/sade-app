@@ -1,4 +1,5 @@
 <?php include_once("templates/header.php"); ?>
+<?php include_once("templates/button.html"); ?>
 
 <div class="container">
     <h2 class="table-header">Perfil de <?= $colaborador['nome'] ?></h2>

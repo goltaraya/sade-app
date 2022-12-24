@@ -96,7 +96,7 @@ body {
 }
 
 .cadastrar-colaborador-button {
-  width: 300px;
+  width: 150px;
   height: auto;
   margin-top: 15px;
 }
@@ -110,4 +110,24 @@ body {
   background-color: transparent;
   border: none;
   padding: 0;
+}
+
+.back-button-div {
+  display: block;
+  width: 85%;
+  margin: 30px auto 0;
+}
+
+.back-button {
+  font-size: 16px;
+  background-color: #990009;
+  color: #f8f9fa;
+  padding: 5px 10px;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.back-button:hover {
+  background-color: #640007;
+  color: #fff;
 }
