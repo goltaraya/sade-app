@@ -1,5 +1,5 @@
-<?php include_once 'templates/header.php' ?>
-
+<?php include_once("templates/header.php") ?>
+<?php include_once("templates/button.html"); ?>
 <div class="container">
     <h2 style="text-align: center;">Cadastro de colaborador</h2>
     <form action="<?= $BASE_URL ?>config/process.php" method="POST">

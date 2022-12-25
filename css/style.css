@@ -102,8 +102,10 @@ body {
 }
 
 .btn-atualizar {
+  display: block;
   font-size: 18px;
   width: 100px;
+  margin: 85%;
 }
 
 .delete-form button {
@@ -130,4 +132,8 @@ body {
 .back-button:hover {
   background-color: #640007;
   color: #fff;
+}
+
+.edit-form {
+  width: 50%;
 }
